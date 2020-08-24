@@ -9,15 +9,38 @@
 
 body{
 	margin: 0;
-	margin-top: 0;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
-#topHead {
+img{
+    
+    position: absolute;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: table-cell;
+    height: 90px;
+}
+
+header{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#topHeader {
 	background-color: #f3f3f3;	
 	margin-top: 0;
 	padding: 0;
-	height: 50px;
-	box-shadow: 0px 5px 20px;
+	height: 100px;
+    box-shadow: 0px 0px 10px;
+    position: relative;
 }
 #test {
 	color: green;
